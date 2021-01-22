@@ -1,0 +1,3911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CWidgetLabExamination</class>
+ <widget class="QWidget" name="CWidgetLabExamination">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>2866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>822</width>
+        <height>2846</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QCheckBox" name="checkBox_xcg">
+         <property name="text">
+          <string>血常规检查</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_xcg" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_6" rowstretch="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" columnstretch="1,1,1,1,1,1" rowminimumheight="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1">
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_24">
+              <property name="text">
+               <string>嗜碱性粒细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="4">
+             <widget class="QLabel" name="label_79">
+              <property name="text">
+               <string>0.50~0.70</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="label_81">
+              <property name="text">
+               <string>0.20~0.40</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="3">
+             <widget class="QLabel" name="label_93">
+              <property name="text">
+               <string>fl</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="label_18">
+              <property name="text">
+               <string>单位</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="0">
+             <widget class="QLabel" name="label_51">
+              <property name="text">
+               <string>平均红细胞血红蛋白浓度</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,4">
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="text">
+                 <string>检查时间</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="dateEdit"/>
+              </item>
+             </layout>
+            </item>
+            <item row="15" column="4">
+             <widget class="QLabel" name="label_103">
+              <property name="text">
+               <string>0~15/0~20</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="3">
+             <widget class="QLabel" name="label_104">
+              <property name="text">
+               <string>10^9/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QLabel" name="label_86">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="1">
+             <widget class="QLabel" name="label_64">
+              <property name="text">
+               <string>MCV</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="3">
+             <widget class="QLabel" name="label_92">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLineEdit" name="lineEdit_15"/>
+            </item>
+            <item row="13" column="0">
+             <widget class="QLabel" name="label_47">
+              <property name="text">
+               <string>平均红细胞血红蛋白含量</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_17">
+              <property name="text">
+               <string>参考值</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="4">
+             <widget class="QLabel" name="label_101">
+              <property name="text">
+               <string>&lt;0.145</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_49">
+              <property name="text">
+               <string>中性粒细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="2">
+             <widget class="QLineEdit" name="lineEdit_20"/>
+            </item>
+            <item row="13" column="3">
+             <widget class="QLabel" name="label_98">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="3">
+             <widget class="QLabel" name="label_100">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="4">
+             <widget class="QLabel" name="label_95">
+              <property name="text">
+               <string>80~100</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="5">
+             <widget class="QLineEdit" name="lineEdit_43"/>
+            </item>
+            <item row="5" column="5">
+             <widget class="QLineEdit" name="lineEdit_32"/>
+            </item>
+            <item row="16" column="0">
+             <widget class="QLabel" name="label_38">
+              <property name="text">
+               <string>红细胞沉降率（血沉）</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="QLineEdit" name="lineEdit_31"/>
+            </item>
+            <item row="11" column="2">
+             <widget class="QLineEdit" name="lineEdit_19"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_22">
+              <property name="text">
+               <string>结果</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_48">
+              <property name="text">
+               <string>淋巴细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="5">
+             <widget class="QLineEdit" name="lineEdit_34"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="label_56">
+              <property name="text">
+               <string>NEUT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="label_58">
+              <property name="text">
+               <string>MON</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_6"/>
+            </item>
+            <item row="11" column="0">
+             <widget class="QLabel" name="label_46">
+              <property name="text">
+               <string>红细胞积压</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="3">
+             <widget class="QLabel" name="label_96">
+              <property name="text">
+               <string>pg</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_15">
+              <property name="text">
+               <string>检查代码</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLabel" name="label_62">
+              <property name="text">
+               <string>HGB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QLabel" name="label_63">
+              <property name="text">
+               <string>HCT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLabel" name="label_60">
+              <property name="text">
+               <string>BASO</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLineEdit" name="lineEdit_11"/>
+            </item>
+            <item row="14" column="1">
+             <widget class="QLabel" name="label_67">
+              <property name="text">
+               <string>BDW</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="label_76">
+              <property name="text">
+               <string>10^9/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="label_80">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="5">
+             <widget class="QLineEdit" name="lineEdit_39"/>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLabel" name="label_59">
+              <property name="text">
+               <string>EO</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="QLineEdit" name="lineEdit_30"/>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLineEdit" name="lineEdit_16"/>
+            </item>
+            <item row="15" column="0">
+             <widget class="QLabel" name="label_42">
+              <property name="text">
+               <string>红细胞体积分布宽度</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_20">
+              <property name="text">
+               <string>白细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="5">
+             <widget class="QLineEdit" name="lineEdit_38"/>
+            </item>
+            <item row="9" column="4">
+             <widget class="QLabel" name="label_91">
+              <property name="text">
+               <string>120~170/110~150</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="label_78">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="label_77">
+              <property name="text">
+               <string>3~10</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="2">
+             <widget class="QLineEdit" name="lineEdit_24"/>
+            </item>
+            <item row="9" column="3">
+             <widget class="QLabel" name="label_90">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLineEdit" name="lineEdit_10"/>
+            </item>
+            <item row="1" column="5">
+             <widget class="QLabel" name="label_14">
+              <property name="text">
+               <string>偏差</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="1">
+             <widget class="QLabel" name="label_68">
+              <property name="text">
+               <string>ESR</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_14"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="lineEdit_13"/>
+            </item>
+            <item row="13" column="1">
+             <widget class="QLabel" name="label_66">
+              <property name="text">
+               <string>MCHC</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="3">
+             <widget class="QLabel" name="label_88">
+              <property name="text">
+               <string>10^12/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="4">
+             <widget class="QLabel" name="label_105">
+              <property name="text">
+               <string>100~300</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="4">
+             <widget class="QLabel" name="label_94">
+              <property name="text">
+               <string>0.35~0.52</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="5">
+             <widget class="QLineEdit" name="lineEdit_41"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_50">
+              <property name="text">
+               <string>单核细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="4">
+             <widget class="QLabel" name="label_89">
+              <property name="text">
+               <string>4.3~5.86/3.77~5.17</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="5">
+             <widget class="QLineEdit" name="lineEdit_37"/>
+            </item>
+            <item row="2" column="5">
+             <widget class="QLineEdit" name="lineEdit_4"/>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_45">
+              <property name="text">
+               <string>红细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="3">
+             <widget class="QLabel" name="label_102">
+              <property name="text">
+               <string>mm/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="5">
+             <widget class="QLineEdit" name="lineEdit_35"/>
+            </item>
+            <item row="5" column="4">
+             <widget class="QLabel" name="label_83">
+              <property name="text">
+               <string>0.08~0.30</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,3">
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="text">
+                 <string>条形码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_5"/>
+              </item>
+             </layout>
+            </item>
+            <item row="7" column="4">
+             <widget class="QLabel" name="label_87">
+              <property name="text">
+               <string>0~0.01</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="2">
+             <widget class="QLineEdit" name="lineEdit_22"/>
+            </item>
+            <item row="16" column="1">
+             <widget class="QLabel" name="label_69">
+              <property name="text">
+               <string>PLT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>嗜酸性粒细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="2">
+             <widget class="QLineEdit" name="lineEdit_17"/>
+            </item>
+            <item row="13" column="2">
+             <widget class="QLineEdit" name="lineEdit_21"/>
+            </item>
+            <item row="6" column="5">
+             <widget class="QLineEdit" name="lineEdit_33"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>项目名称</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLabel" name="label_61">
+              <property name="text">
+               <string>RBC</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="0">
+             <widget class="QLabel" name="label_40">
+              <property name="text">
+               <string>平均红细胞体积</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_39">
+              <property name="text">
+               <string>血红蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="5">
+             <widget class="QLineEdit" name="lineEdit_40"/>
+            </item>
+            <item row="12" column="4">
+             <widget class="QLabel" name="label_97">
+              <property name="text">
+               <string>27~34</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="4">
+             <widget class="QLabel" name="label_99">
+              <property name="text">
+               <string>320~360</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="5">
+             <widget class="QLineEdit" name="lineEdit_36"/>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="label_41">
+              <property name="text">
+               <string>血红蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="3">
+             <widget class="QLabel" name="label_84">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="5">
+             <widget class="QLineEdit" name="lineEdit_42"/>
+            </item>
+            <item row="12" column="1">
+             <widget class="QLabel" name="label_65">
+              <property name="text">
+               <string>MCH</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="4">
+             <widget class="QLabel" name="label_85">
+              <property name="text">
+               <string>0.01~0.05</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="2">
+             <widget class="QLineEdit" name="lineEdit_18"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="label_55">
+              <property name="text">
+               <string>WBC</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="2">
+             <widget class="QLineEdit" name="lineEdit_23"/>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="label_82">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="label_57">
+              <property name="text">
+               <string>LYM</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_ncg">
+         <property name="text">
+          <string>尿常规检查</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_ncg" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_8" rowstretch="1,1,1,1,1,1,1,1,1,1,1" columnstretch="1,1,1,1,1,1" rowminimumheight="1,1,1,1,1,1,1,1,1,1,1">
+            <item row="7" column="4">
+             <widget class="QLabel" name="label_175">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="label_119">
+              <property name="text">
+               <string>4.8~1.030</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLineEdit" name="lineEdit_72"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_144">
+              <property name="text">
+               <string>比重</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_174">
+              <property name="text">
+               <string>蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="QLineEdit" name="lineEdit_54"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_75"/>
+            </item>
+            <item row="0" column="2" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_181">
+                <property name="text">
+                 <string>条形码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_81"/>
+              </item>
+             </layout>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLineEdit" name="lineEdit_61"/>
+            </item>
+            <item row="7" column="5">
+             <widget class="QLineEdit" name="lineEdit_80"/>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLineEdit" name="lineEdit_67"/>
+            </item>
+            <item row="1" column="5">
+             <widget class="QLineEdit" name="lineEdit_79"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_176">
+              <property name="text">
+               <string>胆红质</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_188">
+              <property name="text">
+               <string>尿胆原</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="4">
+             <widget class="QLabel" name="label_194">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_51"/>
+            </item>
+            <item row="10" column="2">
+             <widget class="QLineEdit" name="lineEdit_56"/>
+            </item>
+            <item row="6" column="4">
+             <widget class="QLabel" name="label_182">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="5">
+             <widget class="QLineEdit" name="lineEdit_68"/>
+            </item>
+            <item row="2" column="5">
+             <widget class="QLineEdit" name="lineEdit_66"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_163">
+              <property name="text">
+               <string>浊度</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLineEdit" name="lineEdit_83"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_136">
+              <property name="text">
+               <string>PH值</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="4">
+             <widget class="QLabel" name="label_140">
+              <property name="text">
+               <string>0~3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_184">
+              <property name="text">
+               <string>糖</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="lineEdit_74"/>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_166">
+              <property name="text">
+               <string>清亮</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="4">
+             <widget class="QLabel" name="label_173">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="label_180">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_191">
+              <property name="text">
+               <string>亚硝酸盐</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="5">
+             <widget class="QLineEdit" name="lineEdit_86"/>
+            </item>
+            <item row="8" column="5">
+             <widget class="QLineEdit" name="lineEdit_88"/>
+            </item>
+            <item row="0" column="0" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_126">
+                <property name="text">
+                 <string>检查时间</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="dateEdit_2"/>
+              </item>
+             </layout>
+            </item>
+            <item row="6" column="5">
+             <widget class="QLineEdit" name="lineEdit_58"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_118">
+              <property name="text">
+               <string>酮体</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="QLineEdit" name="lineEdit_55"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_59"/>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="label_147">
+              <property name="text">
+               <string>红细胞</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="4">
+             <widget class="QLabel" name="label_120">
+              <property name="text">
+               <string>1.003~1.030</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="2">
+             <widget class="QLineEdit" name="lineEdit_91"/>
+            </item>
+            <item row="8" column="4">
+             <widget class="QLabel" name="label_164">
+              <property name="text">
+               <string>弱阳性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="5">
+             <widget class="QLineEdit" name="lineEdit_78"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_xysh">
+         <property name="text">
+          <string>生化检验数据</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_xysh" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_11" rowstretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" columnstretch="1,1,1,1,1,1">
+            <item row="20" column="0">
+             <widget class="QLabel" name="label_618">
+              <property name="text">
+               <string>尿酸</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="4">
+             <widget class="QLabel" name="label_454">
+              <property name="text">
+               <string>1.00~2.50</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="40" column="5">
+             <widget class="QLineEdit" name="lineEdit_419"/>
+            </item>
+            <item row="45" column="1">
+             <widget class="QLabel" name="label_970">
+              <property name="text">
+               <string>Rf</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="35" column="1">
+             <widget class="QLabel" name="label_683">
+              <property name="text">
+               <string>CHE</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="42" column="5">
+             <widget class="QLineEdit" name="lineEdit_421"/>
+            </item>
+            <item row="14" column="0">
+             <widget class="QLabel" name="label_428">
+              <property name="text">
+               <string>前白蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="5">
+             <widget class="QLineEdit" name="lineEdit_197"/>
+            </item>
+            <item row="41" column="2">
+             <widget class="QLineEdit" name="lineEdit_390"/>
+            </item>
+            <item row="9" column="4">
+             <widget class="QLabel" name="label_439">
+              <property name="text">
+               <string>55.00~85.00</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="23" column="0">
+             <widget class="QLabel" name="label_692">
+              <property name="text">
+               <string>胆固醇</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="3">
+             <widget class="QLabel" name="label_403">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="39" column="1">
+             <widget class="QLabel" name="label_844">
+              <property name="text">
+               <string>C4</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="20" column="1">
+             <widget class="QLabel" name="label_668">
+              <property name="text">
+               <string>URIC</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="5">
+             <widget class="QLineEdit" name="lineEdit_423"/>
+            </item>
+            <item row="19" column="3">
+             <widget class="QLabel" name="label_986">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="4">
+             <widget class="QLabel" name="label_453">
+              <property name="text">
+               <string>15~35</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QLabel" name="label_400">
+                <property name="text">
+                 <string>检查时间</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="dateEdit_6"/>
+              </item>
+             </layout>
+            </item>
+            <item row="27" column="5">
+             <widget class="QLineEdit" name="lineEdit_406"/>
+            </item>
+            <item row="21" column="2">
+             <widget class="QLineEdit" name="lineEdit_370"/>
+            </item>
+            <item row="39" column="5">
+             <widget class="QLineEdit" name="lineEdit_418"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_459">
+              <property name="text">
+               <string>ALT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="4">
+             <widget class="QLabel" name="label_971">
+              <property name="text">
+               <string>30~170</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLabel" name="label_450">
+              <property name="text">
+               <string>CBIL</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLineEdit" name="lineEdit_190"/>
+            </item>
+            <item row="36" column="2">
+             <widget class="QLineEdit" name="lineEdit_385"/>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLineEdit" name="lineEdit_202"/>
+            </item>
+            <item row="32" column="5">
+             <widget class="QLineEdit" name="lineEdit_411"/>
+            </item>
+            <item row="11" column="2">
+             <widget class="QLineEdit" name="lineEdit_180"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_415">
+              <property name="text">
+               <string>转肽酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="17" column="3">
+             <widget class="QLabel" name="label_984">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="36" column="5">
+             <widget class="QLineEdit" name="lineEdit_415"/>
+            </item>
+            <item row="40" column="1">
+             <widget class="QLabel" name="label_845">
+              <property name="text">
+               <string>lgG</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="34" column="5">
+             <widget class="QLineEdit" name="lineEdit_413"/>
+            </item>
+            <item row="25" column="5">
+             <widget class="QLineEdit" name="lineEdit_404"/>
+            </item>
+            <item row="14" column="3">
+             <widget class="QLabel" name="label_443">
+              <property name="text">
+               <string>mg/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLabel" name="label_421">
+              <property name="text">
+               <string>IBIL</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="QLineEdit" name="lineEdit_189"/>
+            </item>
+            <item row="13" column="5">
+             <widget class="QLineEdit" name="lineEdit_196"/>
+            </item>
+            <item row="31" column="5">
+             <widget class="QLineEdit" name="lineEdit_410"/>
+            </item>
+            <item row="34" column="2">
+             <widget class="QLineEdit" name="lineEdit_383"/>
+            </item>
+            <item row="39" column="0">
+             <widget class="QLabel" name="label_722">
+              <property name="text">
+               <string>补体4</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="label_431">
+              <property name="text">
+               <string>I/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="35" column="2">
+             <widget class="QLineEdit" name="lineEdit_384"/>
+            </item>
+            <item row="19" column="1">
+             <widget class="QLabel" name="label_667">
+              <property name="text">
+               <string>CRE</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="24" column="5">
+             <widget class="QLineEdit" name="lineEdit_403"/>
+            </item>
+            <item row="26" column="1">
+             <widget class="QLabel" name="label_674">
+              <property name="text">
+               <string>Lp(a)</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="25" column="3">
+             <widget class="QLabel" name="label_992">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="25" column="4">
+             <widget class="QLabel" name="label_980">
+              <property name="text">
+               <string>0~3.36</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="3">
+             <widget class="QLabel" name="label_983">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="30" column="5">
+             <widget class="QLineEdit" name="lineEdit_409"/>
+            </item>
+            <item row="26" column="0">
+             <widget class="QLabel" name="label_688">
+              <property name="text">
+               <string>脂蛋白（a）</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="32" column="0">
+             <widget class="QLabel" name="label_698">
+              <property name="text">
+               <string>胆汁酸</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="5">
+             <widget class="QLineEdit" name="lineEdit_417"/>
+            </item>
+            <item row="5" column="3">
+             <widget class="QLabel" name="label_456">
+              <property name="text">
+               <string>U/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="label_426">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="22" column="3">
+             <widget class="QLabel" name="label_989">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="3">
+             <widget class="QLabel" name="label_410">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="31" column="1">
+             <widget class="QLabel" name="label_679">
+              <property name="text">
+               <string>CO2Cp</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="3">
+             <widget class="QLabel" name="label_411">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="4">
+             <widget class="QLabel" name="label_430">
+              <property name="text">
+               <string>0.00~17.39</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="26" column="5">
+             <widget class="QLineEdit" name="lineEdit_405"/>
+            </item>
+            <item row="8" column="3">
+             <widget class="QLabel" name="label_433">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="29" column="3">
+             <widget class="QLabel" name="label_997">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="label_395">
+              <property name="text">
+               <string>0~40</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="20" column="2">
+             <widget class="QLineEdit" name="lineEdit_369"/>
+            </item>
+            <item row="41" column="5">
+             <widget class="QLineEdit" name="lineEdit_420"/>
+            </item>
+            <item row="30" column="0">
+             <widget class="QLabel" name="label_697">
+              <property name="text">
+               <string>钙</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="3">
+             <widget class="QLabel" name="label_405">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="27" column="4">
+             <widget class="QLabel" name="label_982">
+              <property name="text">
+               <string>3.5~5.5</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="5">
+             <widget class="QLineEdit" name="lineEdit_199"/>
+            </item>
+            <item row="6" column="5">
+             <widget class="QLineEdit" name="lineEdit_185"/>
+            </item>
+            <item row="3" column="4">
+             <widget class="QLabel" name="label_396">
+              <property name="text">
+               <string>0~40</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="24" column="1">
+             <widget class="QLabel" name="label_672">
+              <property name="text">
+               <string>HDL-C</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="26" column="2">
+             <widget class="QLineEdit" name="lineEdit_375"/>
+            </item>
+            <item row="36" column="1">
+             <widget class="QLabel" name="label_727">
+              <property name="text">
+               <string>GSP</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="1">
+             <widget class="QLabel" name="label_424">
+              <property name="text">
+               <string>GLU</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="18" column="5">
+             <widget class="QLineEdit" name="lineEdit_397"/>
+            </item>
+            <item row="17" column="5">
+             <widget class="QLineEdit" name="lineEdit_396"/>
+            </item>
+            <item row="27" column="3">
+             <widget class="QLabel" name="label_994">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="24" column="0">
+             <widget class="QLabel" name="label_687">
+              <property name="text">
+               <string>高密度脂蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="1">
+             <widget class="QLabel" name="label_729">
+              <property name="text">
+               <string>C3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="5">
+             <widget class="QLineEdit" name="lineEdit_400"/>
+            </item>
+            <item row="27" column="1">
+             <widget class="QLabel" name="label_675">
+              <property name="text">
+               <string>K+</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="QLineEdit" name="lineEdit_198"/>
+            </item>
+            <item row="18" column="4">
+             <widget class="QLabel" name="label_973">
+              <property name="text">
+               <string>1.7~8.3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="5">
+             <widget class="QLineEdit" name="lineEdit_181"/>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="label_444">
+              <property name="text">
+               <string>30~115</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="23" column="2">
+             <widget class="QLineEdit" name="lineEdit_372"/>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_432">
+              <property name="text">
+               <string>0~40</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="22" column="5">
+             <widget class="QLineEdit" name="lineEdit_401"/>
+            </item>
+            <item row="41" column="0">
+             <widget class="QLabel" name="label_725">
+              <property name="text">
+               <string>免疫球蛋白M</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_429">
+              <property name="text">
+               <string>谷丙转氨酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="32" column="2">
+             <widget class="QLineEdit" name="lineEdit_381"/>
+            </item>
+            <item row="15" column="4">
+             <widget class="QLabel" name="label_438">
+              <property name="text">
+               <string>90~250</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="33" column="1">
+             <widget class="QLabel" name="label_681">
+              <property name="text">
+               <string>AFU</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="19" column="0">
+             <widget class="QLabel" name="label_449">
+              <property name="text">
+               <string>肌酐</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="18" column="2">
+             <widget class="QLineEdit" name="lineEdit_367"/>
+            </item>
+            <item row="28" column="3">
+             <widget class="QLabel" name="label_995">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="label_425">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="39" column="2">
+             <widget class="QLineEdit" name="lineEdit_388"/>
+            </item>
+            <item row="0" column="2" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QLabel" name="label_445">
+                <property name="text">
+                 <string>条形码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_200"/>
+              </item>
+             </layout>
+            </item>
+            <item row="16" column="1">
+             <widget class="QLabel" name="label_664">
+              <property name="text">
+               <string>CK</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="28" column="5">
+             <widget class="QLineEdit" name="lineEdit_407"/>
+            </item>
+            <item row="25" column="0">
+             <widget class="QLabel" name="label_689">
+              <property name="text">
+               <string>低密度脂蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="4">
+             <widget class="QLabel" name="label_412">
+              <property name="text">
+               <string>35.00~55.00</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_186"/>
+            </item>
+            <item row="8" column="5">
+             <widget class="QLineEdit" name="lineEdit_206"/>
+            </item>
+            <item row="30" column="1">
+             <widget class="QLabel" name="label_678">
+              <property name="text">
+               <string>Ca</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="37" column="5">
+             <widget class="QLineEdit" name="lineEdit_416"/>
+            </item>
+            <item row="24" column="4">
+             <widget class="QLabel" name="label_979">
+              <property name="text">
+               <string>1.00~1.60</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="5">
+             <widget class="QLineEdit" name="lineEdit_207"/>
+            </item>
+            <item row="10" column="5">
+             <widget class="QLineEdit" name="lineEdit_191"/>
+            </item>
+            <item row="22" column="0">
+             <widget class="QLabel" name="label_685">
+              <property name="text">
+               <string>甘油三酯</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="0">
+             <widget class="QLabel" name="label_724">
+              <property name="text">
+               <string>补体3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="1">
+             <widget class="QLabel" name="label_457">
+              <property name="text">
+               <string>GLO</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="34" column="0">
+             <widget class="QLabel" name="label_701">
+              <property name="text">
+               <string>淀粉酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="2">
+             <widget class="QLineEdit" name="lineEdit_209"/>
+            </item>
+            <item row="12" column="1">
+             <widget class="QLabel" name="label_436">
+              <property name="text">
+               <string>A/G</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="17" column="2">
+             <widget class="QLineEdit" name="lineEdit_366"/>
+            </item>
+            <item row="43" column="1">
+             <widget class="QLabel" name="label_848">
+              <property name="text">
+               <string>ASO</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="33" column="5">
+             <widget class="QLineEdit" name="lineEdit_412"/>
+            </item>
+            <item row="37" column="2">
+             <widget class="QLineEdit" name="lineEdit_386"/>
+            </item>
+            <item row="25" column="1">
+             <widget class="QLabel" name="label_673">
+              <property name="text">
+               <string>LDL-C</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_440">
+              <property name="text">
+               <string>碱性磷酸酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="2">
+             <widget class="QLineEdit" name="lineEdit_393"/>
+            </item>
+            <item row="20" column="3">
+             <widget class="QLabel" name="label_987">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="42" column="1">
+             <widget class="QLabel" name="label_847">
+              <property name="text">
+               <string>lgA</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="35" column="0">
+             <widget class="QLabel" name="label_702">
+              <property name="text">
+               <string>胆碱酯酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="1">
+             <widget class="QLabel" name="label_435">
+              <property name="text">
+               <string>PAB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="2">
+             <widget class="QLineEdit" name="lineEdit_203"/>
+            </item>
+            <item row="42" column="0">
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>免疫球蛋白A</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="26" column="4">
+             <widget class="QLabel" name="label_981">
+              <property name="text">
+               <string>0~30</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="0">
+             <widget class="QLabel" name="label_695">
+              <property name="text">
+               <string>C反应性蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="42" column="2">
+             <widget class="QLineEdit" name="lineEdit_391"/>
+            </item>
+            <item row="45" column="2">
+             <widget class="QLineEdit" name="lineEdit_394"/>
+            </item>
+            <item row="17" column="4">
+             <widget class="QLabel" name="label_972">
+              <property name="text">
+               <string>0~25</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_448">
+              <property name="text">
+               <string>乳酸脱氢酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="31" column="2">
+             <widget class="QLineEdit" name="lineEdit_380"/>
+            </item>
+            <item row="24" column="3">
+             <widget class="QLabel" name="label_991">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="28" column="2">
+             <widget class="QLineEdit" name="lineEdit_377"/>
+            </item>
+            <item row="40" column="0">
+             <widget class="QLabel" name="label_726">
+              <property name="text">
+               <string>免疫球蛋白G</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="28" column="0">
+             <widget class="QLabel" name="label_686">
+              <property name="text">
+               <string>钠</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="20" column="5">
+             <widget class="QLineEdit" name="lineEdit_399"/>
+            </item>
+            <item row="18" column="0">
+             <widget class="QLabel" name="label_434">
+              <property name="text">
+               <string>尿素氮</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="1">
+             <widget class="QLabel" name="label_849">
+              <property name="text">
+               <string>CRP</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="label_461">
+              <property name="text">
+               <string>GGT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="41" column="1">
+             <widget class="QLabel" name="label_846">
+              <property name="text">
+               <string>lgM</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="0">
+             <widget class="QLabel" name="label_414">
+              <property name="text">
+               <string>肌酸激酶同工酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="1">
+             <widget class="QLabel" name="label_669">
+              <property name="text">
+               <string>P</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="29" column="5">
+             <widget class="QLineEdit" name="lineEdit_408"/>
+            </item>
+            <item row="19" column="4">
+             <widget class="QLabel" name="label_974">
+              <property name="text">
+               <string>36.00~132</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="22" column="1">
+             <widget class="QLabel" name="label_670">
+              <property name="text">
+               <string>TG</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="23" column="3">
+             <widget class="QLabel" name="label_990">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="0">
+             <widget class="QLabel" name="label_399">
+              <property name="text">
+               <string>血糖</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_179"/>
+            </item>
+            <item row="13" column="2">
+             <widget class="QLineEdit" name="lineEdit_201"/>
+            </item>
+            <item row="37" column="0">
+             <widget class="QLabel" name="label_723">
+              <property name="text">
+               <string>酮体</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="0">
+             <widget class="QLabel" name="label_406">
+              <property name="text">
+               <string>白/球比值</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLabel" name="label_422">
+              <property name="text">
+               <string>TP</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="4">
+             <widget class="QLabel" name="label_441">
+              <property name="text">
+               <string>0.00~6.00</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="4">
+             <widget class="QLabel" name="label_401">
+              <property name="text">
+               <string>170~420</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="label_417">
+              <property name="text">
+               <string>ALP</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="5">
+             <widget class="QLineEdit" name="lineEdit_188"/>
+            </item>
+            <item row="18" column="3">
+             <widget class="QLabel" name="label_985">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="29" column="0">
+             <widget class="QLabel" name="label_690">
+              <property name="text">
+               <string>氯</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="2">
+             <widget class="QLineEdit" name="lineEdit_184"/>
+            </item>
+            <item row="29" column="1">
+             <widget class="QLabel" name="label_677">
+              <property name="text">
+               <string>Cl-</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="2">
+             <widget class="QLineEdit" name="lineEdit_208"/>
+            </item>
+            <item row="5" column="4">
+             <widget class="QLabel" name="label_458">
+              <property name="text">
+               <string>90~245</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="29" column="4">
+             <widget class="QLabel" name="label_998">
+              <property name="text">
+               <string>95~115</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="2">
+             <widget class="QLineEdit" name="lineEdit_387"/>
+            </item>
+            <item row="27" column="2">
+             <widget class="QLineEdit" name="lineEdit_376"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_409">
+              <property name="text">
+               <string>谷草转氨酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="17" column="0">
+             <widget class="QLabel" name="label_420">
+              <property name="text">
+               <string>肌酸激酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="40" column="2">
+             <widget class="QLineEdit" name="lineEdit_389"/>
+            </item>
+            <item row="5" column="5">
+             <widget class="QLineEdit" name="lineEdit_204"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLineEdit" name="lineEdit_193"/>
+            </item>
+            <item row="22" column="2">
+             <widget class="QLineEdit" name="lineEdit_371"/>
+            </item>
+            <item row="12" column="5">
+             <widget class="QLineEdit" name="lineEdit_205"/>
+            </item>
+            <item row="28" column="1">
+             <widget class="QLabel" name="label_676">
+              <property name="text">
+               <string>Na+</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="3">
+             <widget class="QLabel" name="label_402">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QLabel" name="label_404">
+              <property name="text">
+               <string>ALB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="lineEdit_194"/>
+            </item>
+            <item row="18" column="1">
+             <widget class="QLabel" name="label_666">
+              <property name="text">
+               <string>BUN</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="label_427">
+              <property name="text">
+               <string>LDH</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="QLineEdit" name="lineEdit_182"/>
+            </item>
+            <item row="16" column="2">
+             <widget class="QLineEdit" name="lineEdit_365"/>
+            </item>
+            <item row="23" column="1">
+             <widget class="QLabel" name="label_671">
+              <property name="text">
+               <string>TC</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="5">
+             <widget class="QLineEdit" name="lineEdit_395"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="label_416">
+              <property name="text">
+               <string>AST</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="0">
+             <widget class="QLabel" name="label_451">
+              <property name="text">
+               <string>球蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="4">
+             <widget class="QLabel" name="label_976">
+              <property name="text">
+               <string>0.72~1.34</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="4">
+             <widget class="QLabel" name="label_446">
+              <property name="text">
+               <string>4.00~17.39</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="25" column="2">
+             <widget class="QLineEdit" name="lineEdit_374"/>
+            </item>
+            <item row="35" column="5">
+             <widget class="QLineEdit" name="lineEdit_414"/>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="label_460">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_442">
+              <property name="text">
+               <string>直接胆红素</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="3">
+             <widget class="QLabel" name="label_988">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QLabel" name="label_437">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="27" column="0">
+             <widget class="QLabel" name="label_696">
+              <property name="text">
+               <string>钾</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="26" column="3">
+             <widget class="QLabel" name="label_993">
+              <property name="text">
+               <string>mg/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_394">
+              <property name="text">
+               <string>总胆红素</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="0">
+             <widget class="QLabel" name="label_413">
+              <property name="text">
+               <string>羟丁酸脱氢</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="2">
+             <widget class="QLineEdit" name="lineEdit_192"/>
+            </item>
+            <item row="43" column="2">
+             <widget class="QLineEdit" name="lineEdit_392"/>
+            </item>
+            <item row="13" column="4">
+             <widget class="QLabel" name="label_408">
+              <property name="text">
+               <string>3.4~6.2</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="24" column="2">
+             <widget class="QLineEdit" name="lineEdit_373"/>
+            </item>
+            <item row="43" column="5">
+             <widget class="QLineEdit" name="lineEdit_422"/>
+            </item>
+            <item row="20" column="4">
+             <widget class="QLabel" name="label_975">
+              <property name="text">
+               <string>15.00~416.00</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="43" column="0">
+             <widget class="QLabel" name="label_691">
+              <property name="text">
+               <string>抗链球菌溶血素O</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="3">
+             <widget class="QLabel" name="label_419">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="19" column="5">
+             <widget class="QLineEdit" name="lineEdit_398"/>
+            </item>
+            <item row="29" column="2">
+             <widget class="QLineEdit" name="lineEdit_378"/>
+            </item>
+            <item row="33" column="2">
+             <widget class="QLineEdit" name="lineEdit_382"/>
+            </item>
+            <item row="15" column="1">
+             <widget class="QLabel" name="label_447">
+              <property name="text">
+               <string>HBDH</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="0">
+             <widget class="QLabel" name="label_684">
+              <property name="text">
+               <string>磷</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="28" column="4">
+             <widget class="QLabel" name="label_996">
+              <property name="text">
+               <string>1.35~1.55</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="3">
+             <widget class="QLabel" name="label_397">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="32" column="1">
+             <widget class="QLabel" name="label_680">
+              <property name="text">
+               <string>TBA</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="17" column="1">
+             <widget class="QLabel" name="label_665">
+              <property name="text">
+               <string>CK-MB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLineEdit" name="lineEdit_187"/>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_455">
+              <property name="text">
+               <string>总蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="31" column="0">
+             <widget class="QLabel" name="label_693">
+              <property name="text">
+               <string>二氧化碳结合力</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="23" column="5">
+             <widget class="QLineEdit" name="lineEdit_402"/>
+            </item>
+            <item row="36" column="0">
+             <widget class="QLabel" name="label_699">
+              <property name="text">
+               <string>糖化血清蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="19" column="2">
+             <widget class="QLineEdit" name="lineEdit_368"/>
+            </item>
+            <item row="30" column="2">
+             <widget class="QLineEdit" name="lineEdit_379"/>
+            </item>
+            <item row="23" column="4">
+             <widget class="QLabel" name="label_978">
+              <property name="text">
+               <string>3.40~6.5</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_195"/>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_452">
+              <property name="text">
+               <string>游离胆红素</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="45" column="0">
+             <widget class="QLabel" name="label_694">
+              <property name="text">
+               <string>类风湿因子</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="45" column="5">
+             <widget class="QLineEdit" name="lineEdit_424"/>
+            </item>
+            <item row="3" column="5">
+             <widget class="QLineEdit" name="lineEdit_183"/>
+            </item>
+            <item row="37" column="1">
+             <widget class="QLabel" name="label_728">
+              <property name="text">
+               <string>D3HB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="33" column="0">
+             <widget class="QLabel" name="label_700">
+              <property name="text">
+               <string>-L-岩藻糖苷酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLabel" name="label_423">
+              <property name="text">
+               <string>TBIL</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="34" column="1">
+             <widget class="QLabel" name="label_682">
+              <property name="text">
+               <string>AMY</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="22" column="4">
+             <widget class="QLabel" name="label_977">
+              <property name="text">
+               <string>0.30~1.80</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="label_418">
+              <property name="text">
+               <string>白蛋白</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="30" column="3">
+             <widget class="QLabel" name="label_999">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="30" column="4">
+             <widget class="QLabel" name="label_1000">
+              <property name="text">
+               <string>2.25~2.7</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="31" column="3">
+             <widget class="QLabel" name="label_1001">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="32" column="3">
+             <widget class="QLabel" name="label_1002">
+              <property name="text">
+               <string>umol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="33" column="3">
+             <widget class="QLabel" name="label_1003">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="34" column="3">
+             <widget class="QLabel" name="label_1004">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="35" column="3">
+             <widget class="QLabel" name="label_1005">
+              <property name="text">
+               <string>U/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="36" column="3">
+             <widget class="QLabel" name="label_1006">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="37" column="3">
+             <widget class="QLabel" name="label_1007">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="3">
+             <widget class="QLabel" name="label_1008">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="39" column="3">
+             <widget class="QLabel" name="label_1009">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="40" column="3">
+             <widget class="QLabel" name="label_1010">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="41" column="3">
+             <widget class="QLabel" name="label_1011">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="42" column="3">
+             <widget class="QLabel" name="label_1012">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="43" column="3">
+             <widget class="QLabel" name="label_1013">
+              <property name="text">
+               <string>g/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="3">
+             <widget class="QLabel" name="label_1014">
+              <property name="text">
+               <string>·</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="45" column="3">
+             <widget class="QLabel" name="label_1015">
+              <property name="text">
+               <string>mmol/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="31" column="4">
+             <widget class="QLabel" name="label_1016">
+              <property name="text">
+               <string>19~29</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="32" column="4">
+             <widget class="QLabel" name="label_1017">
+              <property name="text">
+               <string>&lt;10</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="33" column="4">
+             <widget class="QLabel" name="label_1018">
+              <property name="text">
+               <string>3~40</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="34" column="4">
+             <widget class="QLabel" name="label_1019">
+              <property name="text">
+               <string>0~220</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="35" column="4">
+             <widget class="QLabel" name="label_1020">
+              <property name="text">
+               <string>4000~13000</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="36" column="4">
+             <widget class="QLabel" name="label_1021">
+              <property name="text">
+               <string>1.00~2.1</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="37" column="4">
+             <widget class="QLabel" name="label_1022">
+              <property name="text">
+               <string>0.01~0.3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="38" column="4">
+             <widget class="QLabel" name="label_1023">
+              <property name="text">
+               <string>1.2~2.29</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="39" column="4">
+             <widget class="QLabel" name="label_1024">
+              <property name="text">
+               <string>0.2~0.4</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="40" column="4">
+             <widget class="QLabel" name="label_1025">
+              <property name="text">
+               <string>7.00~15.00</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="41" column="4">
+             <widget class="QLabel" name="label_1026">
+              <property name="text">
+               <string>0.4~2.6</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="42" column="4">
+             <widget class="QLabel" name="label_1027">
+              <property name="text">
+               <string>0.7~4.0</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="43" column="4">
+             <widget class="QLabel" name="label_1028">
+              <property name="text">
+               <string>&lt;200</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="44" column="4">
+             <widget class="QLabel" name="label_1029">
+              <property name="text">
+               <string>阴性</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="45" column="4">
+             <widget class="QLabel" name="label_1030">
+              <property name="text">
+               <string>&lt;20</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_xzgn">
+         <property name="text">
+          <string>心脏功能检查</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_xzgn" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_12" rowstretch="0,0,0,0,0" columnstretch="1,1,1,1,1,1" rowminimumheight="1,1,1,1,1">
+            <item row="1" column="5">
+             <widget class="QLineEdit" name="lineEdit_229"/>
+            </item>
+            <item row="3" column="4">
+             <widget class="QLabel" name="label_464">
+              <property name="text">
+               <string>&lt;2001</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_217"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_508">
+              <property name="text">
+               <string>肌钙蛋白T</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="label_512">
+              <property name="text">
+               <string>&lt;0.01</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="QLineEdit" name="lineEdit_220"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_226"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_210"/>
+            </item>
+            <item row="0" column="2" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_513">
+                <property name="text">
+                 <string>条形码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_231"/>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_477">
+              <property name="text">
+               <string>乳酸脱氢酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QLabel" name="label_528">
+              <property name="text">
+               <string>ng/ml</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="label_463">
+              <property name="text">
+               <string>&lt;250</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="QLineEdit" name="lineEdit_214"/>
+            </item>
+            <item row="0" column="0" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QLabel" name="label_468">
+                <property name="text">
+                 <string>检查时间</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="dateEdit_7"/>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="label_493">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="QLineEdit" name="lineEdit_213"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="label_484">
+              <property name="text">
+               <string>LDH</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_500">
+              <property name="text">
+               <string>&lt;16</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_483">
+              <property name="text">
+               <string>肌酸激酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="label_529">
+              <property name="text">
+               <string>CK</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLabel" name="label_499">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="label_485">
+              <property name="text">
+               <string>TnT</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLabel" name="label_494">
+              <property name="text">
+               <string>IU/L</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="lineEdit_225"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_497">
+              <property name="text">
+               <string>肌酸激酶同功酶</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_527">
+              <property name="text">
+               <string>CK-MB</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_xdt">
+         <property name="text">
+          <string>静息心电图检查检查</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_xdt" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="1" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLabel" name="label_565">
+                <property name="text">
+                 <string>心率状态</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_2">
+                <item>
+                 <property name="text">
+                  <string>窦性心率</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>窦性心动过速</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>窦性心动过缓</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>房性早搏</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>心房颤动</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>心房扑动</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>室性心动过速</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item row="3" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_566">
+                <property name="text">
+                 <string>病理性Q波</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_3">
+                <item>
+                 <property name="text">
+                  <string>窦性心率</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>窦性心动过速</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>窦性心动过缓</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>房性早搏</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>心房颤动</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>心房扑动</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>室性心动过速</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_570">
+                <property name="text">
+                 <string>T波状态</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_11">
+                <item>
+                 <property name="text">
+                  <string>正常</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>倒置</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_25">
+              <item>
+               <widget class="QLabel" name="label_569">
+                <property name="text">
+                 <string>ST段改变</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton_2">
+                <property name="text">
+                 <string>是</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton">
+                <property name="text">
+                 <string>否</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_571">
+                <property name="text">
+                 <string>涉及导联</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_8">
+                <item>
+                 <property name="text">
+                  <string>Ⅰ</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Ⅱ</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Ⅲ</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>aVR</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>aVL</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>aVF</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V2</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V3</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V4</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>V6</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_572">
+                <property name="text">
+                 <string>改变情况</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_9">
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>抬高</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>压低</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_573">
+                <property name="text">
+                 <string>改变幅度</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_13">
+                <item>
+                 <property name="text">
+                  <string>无</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&lt;=0.5mv</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;0.5mv</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item row="0" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_28">
+              <item>
+               <widget class="QLabel" name="label_540">
+                <property name="text">
+                 <string>检查时间</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="dateEdit_15"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_1034">
+                <property name="text">
+                 <string>地检查点</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_12">
+                <item>
+                 <property name="text">
+                  <string>本院</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>心电图室</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>门诊</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>病房</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_604">
+                <property name="text">
+                 <string>条形码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_272"/>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

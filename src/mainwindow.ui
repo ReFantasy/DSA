@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionreport">
+   <property name="text">
+    <string>report</string>
+   </property>
+  </action>
+  <action name="actionsettinhg">
+   <property name="text">
+    <string>setting</string>
+   </property>
+  </action>
+  <action name="m_actReport">
+   <property name="text">
+    <string>报告</string>
+   </property>
+  </action>
+  <action name="m_actSysSetting">
+   <property name="text">
+    <string>系统设置</string>
+   </property>
+  </action>
+  <action name="m_actItemManage">
+   <property name="text">
+    <string>物品管理</string>
+   </property>
+  </action>
+  <action name="m_actDiscBurn">
+   <property name="text">
+    <string>光盘刻录</string>
+   </property>
+  </action>
+  <action name="m_actStatistical">
+   <property name="text">
+    <string>统计</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

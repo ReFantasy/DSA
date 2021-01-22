@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image"/>
+    <qresource prefix="/">
+        <file>VesselTree/AABalance.bmp</file>
+        <file>VesselTree/AALeft.bmp</file>
+        <file>VesselTree/AARight.bmp</file>
+        <file>VesselTree/Balance.bmp</file>
+        <file>VesselTree/Left.bmp</file>
+        <file>VesselTree/Right.bmp</file>
+    </qresource>
+    <qresource prefix="/\"/>
+</RCC>

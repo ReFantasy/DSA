@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CWidgetAngiography</class>
+ <widget class="QWidget" name="CWidgetAngiography">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1128</width>
+    <height>996</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="2,8">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="title">
+      <string>诊断结果</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>3</number>
+      </property>
+      <property name="topMargin">
+       <number>3</number>
+      </property>
+      <property name="rightMargin">
+       <number>3</number>
+      </property>
+      <property name="bottomMargin">
+       <number>3</number>
+      </property>
+      <item>
+       <widget class="QTextEdit" name="m_txtZDJG"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-726</y>
+        <width>1103</width>
+        <height>1537</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_11">
+       <property name="leftMargin">
+        <number>3</number>
+       </property>
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <property name="rightMargin">
+        <number>3</number>
+       </property>
+       <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="0,0,0,2">
+         <item>
+          <widget class="QGroupBox" name="m_grpGMGX">
+           <property name="title">
+            <string>冠脉供血</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QRadioButton" name="m_radYYS">
+              <property name="text">
+               <string>右优势型</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="m_radZYS">
+              <property name="text">
+               <string>左优势型</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="m_radJH">
+              <property name="text">
+               <string>均衡型</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="m_grpYGKK">
+           <property name="title">
+            <string>右冠开口</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QRadioButton" name="RB_RightGuanNormal">
+              <property name="text">
+               <string>正常</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="RB_RightGuanAbnormal">
+              <property name="text">
+               <string>异常</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="m_lineYGKK"/>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_4">
+           <property name="title">
+            <string>左主干开口</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QRadioButton" name="RB_LeftZhuGanNormal">
+              <property name="text">
+               <string>正常</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="RB_LeftZhuGanAbnormal">
+              <property name="text">
+               <string>异常</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="m_lineZZGKK">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_13">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_chkCABG">
+         <property name="text">
+          <string>CABG术后桥血管</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="m_wgtCABG" native="true">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,0,3,0,2,0,4">
+          <item>
+           <widget class="QListWidget" name="m_lstwCABG">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <item>
+             <property name="text">
+              <string>AO</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LIMA</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="m_lblCABG">
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>→</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="m_lstwCABGRight">
+            <item>
+             <property name="text">
+              <string>LAD</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LCX</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RCA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LM</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LIMA</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="m_btnCABGChoice">
+            <property name="text">
+             <string>选择</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_23">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="m_lstwCABGResult">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>600</width>
+                <height>0</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="m_btnDeleteCABG">
+                <property name="styleSheet">
+                 <string notr="true">background-color:transparent;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../Image.qrc">
+                  <normaloff>:/Image/delete.ico</normaloff>:/Image/delete.ico</iconset>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_chkCZXH">
+         <property name="text">
+          <string>侧枝循环</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="m_wgtCZXH" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="2,2,0,2,0,2,0,4">
+          <item>
+           <widget class="QGroupBox" name="m_grpXL">
+            <property name="title">
+             <string>血流</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QRadioButton" name="m_radXLgrade1">
+               <property name="text">
+                <string>I级</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="m_radXLgrade2">
+               <property name="text">
+                <string>II级</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="m_radXLgrade3">
+               <property name="text">
+                <string>III级</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="m_lstwCZXHLeft">
+            <item>
+             <property name="text">
+              <string>LAD</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LCX</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LIMA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LM</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RCA</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>→</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="m_lstwCZXHRight">
+            <item>
+             <property name="text">
+              <string>RCA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAD</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LCX</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LM</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LIMA</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="m_btnCZXHChoice">
+            <property name="text">
+             <string>选择</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_31">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="m_lstwCZXHResult">
+              <property name="minimumSize">
+               <size>
+                <width>600</width>
+                <height>0</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="m_btnDeleteCZXH">
+                <property name="styleSheet">
+                 <string notr="true">background-color:transparent;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../Image.qrc">
+                  <normaloff>:/Image/delete.ico</normaloff>:/Image/delete.ico</iconset>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_chkGHY">
+         <property name="text">
+          <string>钙化影</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="m_wgtGHY" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="3,0,3,0,2,0,4">
+          <item>
+           <widget class="QGroupBox" name="m_grpLX">
+            <property name="title">
+             <string>类型</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QRadioButton" name="m_radGZ">
+               <property name="text">
+                <string>管状</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="m_radDPZ">
+               <property name="text">
+                <string>点片状</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="m_grpWZ">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>位置</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QCheckBox" name="m_ckbWZ_RCA">
+               <property name="text">
+                <string>RCA</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="m_ckbWZ_LAD">
+               <property name="text">
+                <string>LAD</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="m_ckbWZ_LCA">
+               <property name="text">
+                <string>LCA</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="m_ckbWZ_LCX">
+               <property name="text">
+                <string>LCX</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="m_btnGHXChoice">
+            <property name="text">
+             <string>选择</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_32">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="m_lstwGHXResult">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>600</width>
+                <height>0</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="m_btnDeleteGHY">
+                <property name="styleSheet">
+                 <string notr="true">background-color:transparent;
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../Image.qrc">
+                  <normaloff>:/Image/delete.ico</normaloff>:/Image/delete.ico</iconset>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_chkJWPCI">
+         <property name="text">
+          <string>既往PCI支架影</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="m_wgtJWPCI" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="1,4,10">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>显影位置：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="m_cmbXYWZ">
+            <property name="contextMenuPolicy">
+             <enum>Qt::ActionsContextMenu</enum>
+            </property>
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="maxVisibleItems">
+             <number>17</number>
+            </property>
+            <property name="sizeAdjustPolicy">
+             <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>RCAP</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_chkZXSZY">
+         <property name="text">
+          <string>左心室造影</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="m_wgtZXSZY" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0,0,0,8">
+            <item>
+             <widget class="QGroupBox" name="m_grpWX">
+              <property name="title">
+               <string>外形</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QRadioButton" name="RB_ShapeNormal">
+                 <property name="text">
+                  <string>正常</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="RB_ShapeAbnormal">
+                 <property name="text">
+                  <string>异常</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="m_grpXQDX">
+              <property name="title">
+               <string>心腔大小</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <item>
+                <widget class="QRadioButton" name="m_radXQDXNormal">
+                 <property name="text">
+                  <string>正常</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="m_radXQDXAbnormal">
+                 <property name="text">
+                  <string>增大</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="m_wgtMQRL" native="true">
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="0" column="2">
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>ml</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="m_lblSZMQRL">
+                 <property name="text">
+                  <string>舒张末期容量</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>ml</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="m_lblSSMQRL">
+                 <property name="text">
+                  <string>收缩末期容量</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="m_lineSSMQRL"/>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="m_lineSZMQRL"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_8" native="true">
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="1" column="0">
+                <widget class="QLineEdit" name="m_lineSXFS"/>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="m_lblSXFS">
+                 <property name="text">
+                  <string>射血分数：</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QWidget" name="m_wgtShapeYC" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <widget class="QWidget" name="m_grdwName" native="true">
+               <layout class="QGridLayout" name="gridLayout_11">
+                <item row="0" column="0">
+                 <widget class="QGroupBox" name="groupBox_2">
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_24">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbQC">
+                     <property name="text">
+                      <string>前侧</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QGroupBox" name="groupBox_7">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_27">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbGM">
+                     <property name="text">
+                      <string>膈面</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="5" column="0">
+                 <widget class="QGroupBox" name="groupBox_8">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_28">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbHJD">
+                     <property name="text">
+                      <string>后基底</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QGroupBox" name="groupBox_5">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_26">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbXJ">
+                     <property name="text">
+                      <string>心尖</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="7" column="0">
+                 <widget class="QGroupBox" name="groupBox_10">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_30">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbHC">
+                     <property name="text">
+                      <string>后侧</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="6" column="0">
+                 <widget class="QGroupBox" name="groupBox_9">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_29">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbJG">
+                     <property name="text">
+                      <string>间隔</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QGroupBox" name="groupBox_3">
+                  <property name="title">
+                   <string/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_25">
+                   <item>
+                    <widget class="QCheckBox" name="m_ckbQJD">
+                     <property name="text">
+                      <string>前基底</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="m_grdwChoice" native="true">
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="3" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpQJD">
+                  <layout class="QHBoxLayout" name="horizontalLayout_15">
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQJD_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="0" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpQC">
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_13">
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radQC_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="9" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpHJD">
+                  <layout class="QHBoxLayout" name="horizontalLayout_19">
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHJD_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="7" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpGM">
+                  <layout class="QHBoxLayout" name="horizontalLayout_17">
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radGM_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="5" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpXJ">
+                  <layout class="QHBoxLayout" name="horizontalLayout_16">
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radXJ_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="11" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpJG">
+                  <layout class="QHBoxLayout" name="horizontalLayout_20">
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radJG_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="13" column="0" rowspan="2">
+                 <widget class="QGroupBox" name="m_grpHC">
+                  <layout class="QHBoxLayout" name="horizontalLayout_21">
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_ZC">
+                     <property name="text">
+                      <string>正常</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_JD">
+                     <property name="text">
+                      <string>减低</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_WHD">
+                     <property name="text">
+                      <string>无活动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_FCYD">
+                     <property name="text">
+                      <string>反常运动</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_SBL">
+                     <property name="text">
+                      <string>室壁瘤</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="m_radHC_BQD">
+                     <property name="text">
+                      <string>不确定</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>造影结论</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QTextEdit" name="m_txtZYJL"/>
+          </item>
+          <item>
+           <widget class="QWidget" name="GW_Conclusion" native="true">
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="0">
+              <widget class="QGroupBox" name="groupBox_11">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="8" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_LeftLAD">
+                  <property name="text">
+                   <string>左主干+LAD病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="7" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_ZZG">
+                  <property name="text">
+                   <string>左主干病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="12" column="1">
+                 <widget class="QComboBox" name="m_cmbLeftThreefirst">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramous</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="12" column="4">
+                 <widget class="QComboBox" name="m_cmbLeftThreeThird">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="10" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_LeftRCA">
+                  <property name="text">
+                   <string>左主干+RCA病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_GXB">
+                  <property name="text">
+                   <string>冠心病</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_CABG">
+                  <property name="text">
+                   <string>CABG术后</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="9" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_LeftLCX">
+                  <property name="text">
+                   <string>左主干+LCX病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="11" column="1">
+                 <widget class="QComboBox" name="m_cmbLeftDoubleFirst">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="5" column="1">
+                 <widget class="QComboBox" name="m_cmbDZBB">
+                  <property name="duplicatesEnabled">
+                   <bool>false</bool>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYJL_LJ">
+                  <property name="text">
+                   <string>临界</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_SZBB">
+                  <property name="text">
+                   <string>双支病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="11" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_LeftDouble">
+                  <property name="text">
+                   <string>左主干+双支病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="12" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_LeftThree">
+                  <property name="text">
+                   <string>左主干+三支病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYJL_ZC">
+                  <property name="text">
+                   <string>正常</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_PCI">
+                  <property name="text">
+                   <string>PCI术后</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="1">
+                 <widget class="QComboBox" name="m_cmbSZBBFirst">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="5" column="0">
+                 <widget class="QCheckBox" name="m_ckbZYMJL_DZBB">
+                  <property name="text">
+                   <string>单支病变</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="12" column="2">
+                 <widget class="QComboBox" name="m_cmbLeftThreeSecond">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramous</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="11" column="2">
+                 <widget class="QComboBox" name="m_cmbLeftDoubleSecond">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="6" column="2">
+                 <widget class="QComboBox" name="m_cmbSZBBSecond">
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RCA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>AM2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>RPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LM</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LAD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>D2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LCX</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LMD</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>S1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>PL</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPDA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>LPLS</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Ramus</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <spacer name="horizontalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="w_InterventionBloodVessels" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="0,1,0,1">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>进一步处理建议</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="m_cmbJYBCL">
+               <item>
+                <property name="text">
+                 <string>即刻PCI</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>择期PCI</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>择期CABG</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>不处理</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>干预血管：</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="m_cmbGYXG"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_9" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_6"/>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/add.ico</file>
+        <file>Image/delete.ico</file>
+        <file>Image/modify.ico</file>
+        <file>Image/clock.ico</file>
+        <file>Image/down.ico</file>
+        <file>Image/up.ico</file>
+        <file>Image/gzst.JPG</file>
+        <file>Image/eye.ico</file>
+    </qresource>
+</RCC>

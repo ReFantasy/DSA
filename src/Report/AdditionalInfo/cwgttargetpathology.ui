@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CWgtTargetPathology</class>
+ <widget class="QWidget" name="CWgtTargetPathology">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1104</width>
+    <height>1926</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,4">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>名称</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="m_lineBBMC">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>病变特征</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_11">
+      <item>
+       <layout class="QGridLayout" name="gridLayout" columnstretch="1,1,1,1,1,1,1,1" columnminimumwidth="1,1,1,1,1,1,1,1">
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_61">
+          <property name="text">
+           <string>病变范围</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="m_cmbBBWX">
+          <item>
+           <property name="text">
+            <string>光滑</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>不规则</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_62">
+          <property name="text">
+           <string>病变特点</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QComboBox" name="m_cmbBBGH">
+          <item>
+           <property name="text">
+            <string>无</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>轻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>中</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>重</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QLabel" name="label_83">
+          <property name="text">
+           <string>TIMI血流</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_82">
+          <property name="text">
+           <string>病变类型</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QComboBox" name="m_cmbBBLX">
+          <item>
+           <property name="text">
+            <string>A型病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>B1型病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>B2型病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>C型病变</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_81">
+          <property name="text">
+           <string>钙化</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QComboBox" name="m_cmbTIMI">
+          <item>
+           <property name="text">
+            <string>0级</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>I级</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>II级</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>III级</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_80">
+          <property name="text">
+           <string>病变血管</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="m_cmbBBXG">
+          <item>
+           <property name="text">
+            <string>LM-LADp</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_87">
+          <property name="text">
+           <string>病变外形</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QLabel" name="label_84">
+          <property name="text">
+           <string>近端血管弯曲度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="5">
+         <widget class="QComboBox" name="m_cmbJDXGWQD">
+          <item>
+           <property name="text">
+            <string>容易</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>中度</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>极度</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="m_cmbBBTD">
+          <item>
+           <property name="text">
+            <string>一般病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>分叉病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>钙化病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>血栓病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>桥血管病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>完全闭塞病变</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小血管直径&lt;2.5m</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>长病变长度&gt;20m</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QComboBox" name="m_cmbBBXT">
+          <item>
+           <property name="text">
+            <string>同心性</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>偏心性</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QLabel" name="label_55">
+          <property name="text">
+           <string>形态</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QComboBox" name="m_cmbBBFW">
+          <item>
+           <property name="text">
+            <string>局部</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>管状</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>弥漫</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="6">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>病变是否成角</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="6">
+         <widget class="QLabel" name="label_85">
+          <property name="text">
+           <string>完全闭塞</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="7">
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,1">
+          <item>
+           <widget class="QWidget" name="m_wgtBBCJ" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="1,1">
+             <item>
+              <widget class="QRadioButton" name="m_radBBCJT">
+               <property name="text">
+                <string>是</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="m_radBBCJF">
+               <property name="text">
+                <string>否</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="m_cmbBBCJ">
+            <item>
+             <property name="text">
+              <string>轻度成角</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>中度成角</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="7">
+         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,1">
+          <item>
+           <widget class="QWidget" name="m_wgtWQBS" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="1,1">
+             <item>
+              <widget class="QRadioButton" name="m_radWQBST">
+               <property name="text">
+                <string>是</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="m_radWQBSF">
+               <property name="text">
+                <string>否</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="m_cmbWQBS">
+            <item>
+             <property name="text">
+              <string>完全闭塞&lt;3个月</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>完全闭塞&gt;3个月</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>术前目测数据</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_12">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_12">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_20">
+        <item>
+         <widget class="QLabel" name="label_88">
+          <property name="text">
+           <string>参照血管直径</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineSqCZXGZJ"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_89">
+          <property name="text">
+           <string>mm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_90">
+          <property name="text">
+           <string>靶病变长度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineSqBBBCD"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_91">
+          <property name="text">
+           <string>mm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="text">
+           <string>术前最小管腔直径</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineSqZXGQZJ"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_93">
+          <property name="text">
+           <string>mm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_94">
+          <property name="text">
+           <string>狭窄程度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineSqXZCD"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_95">
+          <property name="text">
+           <string>%</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSQQCA">
+     <property name="text">
+      <string>术前QCA</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSQQCA">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_13">
+      <item>
+       <widget class="QWidget" name="widget_11" native="true">
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_97">
+           <property name="text">
+            <string>术前参照血管直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QLabel" name="label_98">
+           <property name="text">
+            <string>球囊预处理后最小管腔直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_99">
+           <property name="text">
+            <string>术前最小管腔直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="label_100">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineSqQcaZXGQZJ"/>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineSqQcaQNCLXZCD"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineSqQcaBBCD"/>
+         </item>
+         <item row="0" column="9">
+          <widget class="QLineEdit" name="m_lineSqQcaXZCD"/>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_101">
+           <property name="text">
+            <string>术前病变长度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="10">
+          <widget class="QLabel" name="label_102">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="9">
+          <widget class="QLineEdit" name="m_lineSqQcaQNCLZXGQ"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineSqQcaCZXGZJ"/>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="label_122">
+           <property name="text">
+            <string>术前狭窄程度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_133">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="6">
+          <widget class="QLabel" name="label_134">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_135">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_136">
+           <property name="text">
+            <string>球囊预处理后狭窄程度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLabel" name="label_137">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSQIVUS">
+     <property name="text">
+      <string>术前IVUS</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSQIVUS">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_18">
+      <item>
+       <widget class="QWidget" name="widget_12" native="true">
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_139">
+           <property name="text">
+            <string>Stent Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_140">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lumen Dmax&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="m_lineSqIvusLumen_CSA"/>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineSqIvusStent_Dmin"/>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLineEdit" name="m_lineSqIvusLumen_Dmax"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineSqIvusEEM_Dmin"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_141">
+           <property name="text">
+            <string>Stent Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineSqIvusStent_CSA"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_142">
+           <property name="text">
+            <string>EEM Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_143">
+           <property name="text">
+            <string>EEM CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_144">
+           <property name="text">
+            <string>EEM Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_145">
+           <property name="text">
+            <string>Lumen Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLineEdit" name="m_lineSqIvusLumen_Dmin"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineSqIvusEEM_CSA"/>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLineEdit" name="m_lineSqIvusEEM_Dmax"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_146">
+           <property name="text">
+            <string>Lumen CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="m_lineSqIvusStent_Dmax"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_147">
+           <property name="text">
+            <string>Stent CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSQOCT">
+     <property name="text">
+      <string>术前OCT</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSQOCT">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_19">
+      <item>
+       <widget class="QWidget" name="widget_13" native="true">
+        <layout class="QGridLayout" name="gridLayout_13">
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_149">
+           <property name="text">
+            <string>Stent Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_150">
+           <property name="text">
+            <string>Lumen Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="m_lineSqOctLumen_CSA"/>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineSqOctStent_Dmin"/>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLineEdit" name="m_lineSqOctLumen_Dmax"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineSqOctEEM_Dmin"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_151">
+           <property name="text">
+            <string>Stent Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineSqOctStent_CSA"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_152">
+           <property name="text">
+            <string>EEM Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_153">
+           <property name="text">
+            <string>EEM CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_154">
+           <property name="text">
+            <string>EEM Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_155">
+           <property name="text">
+            <string>Lumen Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLineEdit" name="m_lineSqOctLumen_Dmin"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineSqOctEEM_CSA"/>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLineEdit" name="m_lineSqOctEEM_Dmax"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_156">
+           <property name="text">
+            <string>Lumen CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="m_lineSqOctStent_Dmax"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_157">
+           <property name="text">
+            <string>Stent CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSQFFR">
+     <property name="text">
+      <string>是否术前FFR</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSQFFR">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_20">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_24">
+        <item>
+         <widget class="QWidget" name="widget_14" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_25">
+           <item>
+            <widget class="QLabel" name="label_159">
+             <property name="text">
+              <string>FFR值</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="m_lineSqFFR"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_14">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSZBFZ">
+     <property name="text">
+      <string>术中并发症</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSZBFZ">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_21">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_26">
+        <item>
+         <widget class="QWidget" name="m_wgtSZBFZ" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_27">
+           <item>
+            <widget class="QCheckBox" name="checkBox_9">
+             <property name="text">
+              <string>慢血流</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_10">
+             <property name="text">
+              <string>严重夹层</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_11">
+             <property name="text">
+              <string>急性血栓</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_12">
+             <property name="text">
+              <string>穿孔</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_13">
+             <property name="text">
+              <string>急性闭塞</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_14">
+             <property name="text">
+              <string>心包闭塞</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_15">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>PCI器械使用</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_31">
+     <item>
+      <widget class="QGroupBox" name="groupBox_22">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_15">
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_169">
+          <property name="text">
+           <string>导管使用情况</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QTableWidget" name="dglb"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QTableWidget" name="dgsyqk"/>
+        </item>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="pushButton_22">
+          <property name="text">
+           <string>&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QTableWidget" name="qnlb"/>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLabel" name="label_167">
+          <property name="text">
+           <string>球囊使用情况</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_32">
+          <item>
+           <widget class="QPushButton" name="pushButton_19">
+            <property name="text">
+             <string>导管</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_20">
+            <property name="text">
+             <string>支架</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_21">
+            <property name="text">
+             <string>球囊</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_19">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="6" column="2">
+         <widget class="QLabel" name="label_168">
+          <property name="text">
+           <string>支架使用情况</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QTableWidget" name="qnsyqk"/>
+        </item>
+        <item row="7" column="2">
+         <widget class="QTableWidget" name="zjsyqk"/>
+        </item>
+        <item row="7" column="0">
+         <widget class="QTableView" name="zjlb"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_20">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_17">
+     <property name="title">
+      <string>术后目测数据</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_14">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <widget class="QLabel" name="label_70">
+          <property name="text">
+           <string>参照血管直径</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineShMCCZXGZJ"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_71">
+          <property name="text">
+           <string>mm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_72">
+          <property name="text">
+           <string>残余狭窄程度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineShMCCYXZCD"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_73">
+          <property name="text">
+           <string>%</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_74">
+          <property name="text">
+           <string>术后最小管腔直径</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineShMCZXGQZJ"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_75">
+          <property name="text">
+           <string>mm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSHOCT">
+     <property name="text">
+      <string>术后OCT</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSHOCT">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_16">
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QGridLayout" name="gridLayout_11">
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_67">
+           <property name="text">
+            <string>Stent Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_68">
+           <property name="text">
+            <string>Lumen Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="m_lineShOctLumen_CSA"/>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineShOctStent_Dmin"/>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLineEdit" name="m_lineShOctLumen_Dmax"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineShOctEEM_Dmin"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_76">
+           <property name="text">
+            <string>Stent Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineShOctStent_CSA"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_50">
+           <property name="text">
+            <string>EEM Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_51">
+           <property name="text">
+            <string>EEM CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_52">
+           <property name="text">
+            <string>EEM Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_77">
+           <property name="text">
+            <string>Lumen Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLineEdit" name="m_lineShOctLumen_Dmin"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineShOctEEM_CSA"/>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLineEdit" name="m_lineShOctEEM_Dmax"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_53">
+           <property name="text">
+            <string>Lumen CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="m_lineShOctStent_Dmax"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_54">
+           <property name="text">
+            <string>Stent CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSHQCA">
+     <property name="text">
+      <string>术后QCA</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSHQCA">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <widget class="QWidget" name="widget_jrh_qca" native="true">
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="1" column="6">
+          <widget class="QLabel" name="label_119">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_109">
+           <property name="text">
+            <string>支架内最小管腔直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_120">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="10">
+          <widget class="QLabel" name="label_121">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineShZJCYXZ"/>
+         </item>
+         <item row="2" column="7">
+          <widget class="QLabel" name="label_112">
+           <property name="text">
+            <string>支架重叠长度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_105">
+           <property name="text">
+            <string>术后参照血管直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QLabel" name="label_104">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineShZJZXGQ"/>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLabel" name="label_107">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="10">
+          <widget class="QLabel" name="label_115">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineShBBZXGQZJ"/>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_106">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_116">
+           <property name="text">
+            <string>球囊预处理后狭窄程度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLineEdit" name="m_lineShZJZCD"/>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_113">
+           <property name="text">
+            <string>支架内术后残余狭窄</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="label_111">
+           <property name="text">
+            <string>病变内术后残余狭窄</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="7">
+          <widget class="QLabel" name="label_117">
+           <property name="text">
+            <string>球囊预处理后最小管腔直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_114">
+           <property name="text">
+            <string>支架总长度</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="label_108">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_103">
+           <property name="text">
+            <string>mm</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="9">
+          <widget class="QLineEdit" name="m_lineShQNZXGQZJ"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_118">
+           <property name="text">
+            <string>病变内最小管腔直径</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="m_lineShQNCLXZCD"/>
+         </item>
+         <item row="0" column="9">
+          <widget class="QLineEdit" name="m_lineShBBCYXZ"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineShCZXGZJ"/>
+         </item>
+         <item row="2" column="9">
+          <widget class="QLineEdit" name="m_lineShZJCDCD"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSHIVUS">
+     <property name="text">
+      <string>术后IVUS</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSHIVUS">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_17">
+      <item>
+       <widget class="QWidget" name="widget_5" native="true">
+        <layout class="QGridLayout" name="gridLayout_12">
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_124">
+           <property name="text">
+            <string>Stent Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_125">
+           <property name="text">
+            <string>Lumen Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="m_lineShIvusLumen_CSA"/>
+         </item>
+         <item row="1" column="5">
+          <widget class="QLineEdit" name="m_lineShIvusStent_Dmin"/>
+         </item>
+         <item row="2" column="3">
+          <widget class="QLineEdit" name="m_lineShIvusLumen_Dmax"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLineEdit" name="m_lineShIvusEEM_Dmin"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_126">
+           <property name="text">
+            <string>Stent Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="m_lineShIvusStent_CSA"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_127">
+           <property name="text">
+            <string>EEM Dmax</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_128">
+           <property name="text">
+            <string>EEM CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_129">
+           <property name="text">
+            <string>EEM Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_130">
+           <property name="text">
+            <string>Lumen Dmin</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QLineEdit" name="m_lineShIvusLumen_Dmin"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="m_lineShIvusEEM_CSA"/>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLineEdit" name="m_lineShIvusEEM_Dmax"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_131">
+           <property name="text">
+            <string>Lumen CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="m_lineShIvusStent_Dmax"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_132">
+           <property name="text">
+            <string>Stent CSA</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_ckbSHFFR">
+     <property name="text">
+      <string>是否术后FFR</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="m_grpSHFFR">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_10">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_17">
+           <item>
+            <widget class="QLabel" name="label_79">
+             <property name="text">
+              <string>FFR值</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="m_lineShFFR"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_8">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
